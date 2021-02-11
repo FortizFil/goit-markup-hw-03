@@ -1,0 +1,27 @@
+.button {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--black-text);
+  background-color: var(--lihtgrey-text);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+.project {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  color: var(--black-text);
+}
+
+.project-info {
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 400;
+  color: var(--grey-text);
+}

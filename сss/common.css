@@ -1,0 +1,103 @@
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --lihtblack-text: rgba(47, 48, 58, 1);
+  --lihtgrey-text: rgba(245, 244, 250, 1);
+  --middlewhite-text: rgba(255, 255, 255, 0.6);
+}
+body {
+  width: 1600px;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--black-text);
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: var(--blue-text);
+}
+.nav-link {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--black-text);
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-text);
+}
+
+.contacts-link {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--grey-text);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--blue-text);
+}
+
+footer {
+  background-color: var(--lihtblack-text);
+}
+
+.address-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--white-text);
+  letter-spacing: 0.03em;
+}
+
+.contacts {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--middlewhite-text);
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--white-text);
+  letter-spacing: 0.03em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.active {
+  color: var(--blue-text);
+}
