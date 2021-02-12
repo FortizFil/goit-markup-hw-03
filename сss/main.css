@@ -5,7 +5,8 @@
 
 .hero-name {
   margin-top: 0px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
+  padding-top: 200px;
 
   font-size: 44px;
   line-height: 1.4;
@@ -28,6 +29,9 @@
   letter-spacing: 0.06em;
 }
 
+.hero-container {
+  padding-bottom: 200px;
+}
 .advantages {
   display: flex;
 }

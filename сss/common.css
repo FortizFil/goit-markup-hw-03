@@ -13,6 +13,7 @@ html {
   --lihtblack-text: rgba(47, 48, 58, 1);
   --lihtgrey-text: rgba(245, 244, 250, 1);
   --middlewhite-text: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee;
 }
 body {
   width: 1600px;
