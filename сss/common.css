@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
 :root {
   --blue-text: rgba(33, 150, 243, 1);
   --black-text: rgba(33, 33, 33, 1);
@@ -12,14 +19,31 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding: 0px 15px;
-  text-align: center;
   border: 1px solid red;
 }
 
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  display: inline-block;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
@@ -31,6 +55,11 @@ body {
 .web {
   color: var(--blue-text);
 }
+
+.nav-list {
+  display: flex;
+}
+
 .nav-link {
   font-size: 14px;
   line-height: 1.2;
@@ -39,6 +68,18 @@ body {
   letter-spacing: 0.02em;
 }
 
+.nav-item {
+  margin-left: 50px;
+}
+
+.nav-item:first-child {
+  margin-left: 93px;
+}
+
+.head-contact {
+  display: flex;
+  margin-left: auto;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--blue-text);
