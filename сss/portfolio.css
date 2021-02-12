@@ -38,7 +38,6 @@
 }
 
 .project-item {
-  text-align: center;
   margin-bottom: 30px;
   border: 1px solid var(--border-color);
 }
@@ -50,6 +49,7 @@
 .project {
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
@@ -57,7 +57,10 @@
 }
 
 .project-info {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 24px;
+
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.9;

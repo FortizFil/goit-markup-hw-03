@@ -51,6 +51,8 @@ ul {
   font-weight: 700;
   color: var(--black-text);
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .web {
@@ -59,6 +61,8 @@ ul {
 
 .nav-list {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-link {
@@ -80,6 +84,8 @@ ul {
 .head-contact {
   display: flex;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .head-contact .item {
