@@ -80,6 +80,15 @@ ul {
   display: flex;
   margin-left: auto;
 }
+
+.head-contact .item {
+  margin-right: 50px;
+}
+
+.head-contact .item:last-child {
+  margin-right: 0px;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--blue-text);
