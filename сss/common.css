@@ -16,7 +16,6 @@ html {
   --border-color: #eeeeee;
 }
 body {
-  width: 1600px;
   font-family: Roboto, sans-serif;
 }
 
@@ -30,7 +29,6 @@ ul {
   margin-right: auto;
   width: 1200px;
   padding: 0px 15px;
-  border: 1px solid red;
 }
 
 .head {
